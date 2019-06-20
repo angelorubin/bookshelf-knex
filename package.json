@@ -1,0 +1,22 @@
+{
+  "name": "bookshelf-knex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "latest": "npx knex migrate:latest",
+    "rollback": "npx knex migrate:rollback",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "angelorubin@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "bookshelf": "^0.15.1",
+    "dotenv": "^8.0.0",
+    "knex": "^0.17.6",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5"
+  }
+}
